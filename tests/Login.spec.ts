@@ -12,7 +12,7 @@ test('Successful login redirects to inventory page', async ({ page }) => {
     await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
     await expect(page).toHaveTitle('Swag Labs');
   });
-}); 
+});
 
 
 test('Verify wrong login', async ({ page }) => {
